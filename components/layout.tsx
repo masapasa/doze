@@ -10,7 +10,10 @@ export default function Layout({ children }: LayoutProps) {
       <header className="sticky top-0 z-40 bg-white w-full">
         <div className="h-16 border-b border-b-slate-200 py-4">
           <nav className="flex items-center">
-            <div className="w-full mx-auto">
+            <div className="w-full float-right ml-[188px] text-2xl mx-auto flex-col space-y-4">
+              Doze
+            </div>
+            <div className="w-full mx-auto flex-col space-y-4 float-right">
               <TopicDropdown />
             </div>
           </nav>
